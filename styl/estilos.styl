@@ -1,0 +1,40 @@
+/*
+display: flex /* or inline-flex
+flex-direction: row | row-reverse | column | column-reverse
+justify-content: flex-start | flex-end | center | space-between | space-around
+align-items: flex-start | flex-end | center | baseline | stretch
+*/
+alinear(a,b,c)
+  display flex
+  flex-direction a
+  justify-content b
+  align-items c
+body
+  margin 0
+  alinear(column,center,center)
+  
+  section:first-child
+    alinear(column,space-between,center)
+    background-image: url("../img/fondo2.jpg")
+    background-repeat: no-repeat
+    background-size: 100%
+    width 100%
+    height 100vh
+    
+    h1
+      border-top: 0.07rem solid
+      border-bottom: 0.07rem solid
+      font-size 3rem
+      color white
+    ul
+      alinear(row,space-around,center)
+      width 40%
+      list-style-type:none
+  
+  section:last-child
+    alinear(row,space-around,center)
+    width 100%
+    article
+      width 30%
+      text-align: center
+      background: beige
