@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-body .fondo {
+.fondo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,7 +22,8 @@ body .fondo {
   width: 100%;
   height: 100vh;
 }
-body .fondo header {
+.cabecera {
+  position: fixed;
   width: 100%;
   height: 4em;
   background: rgba(0,0,0,0.7);
@@ -31,14 +32,14 @@ body .fondo header {
   justify-content: space-between;
   align-items: center;
 }
-body .fondo header h1 {
+.cabecera-logo {
   border-top: 0.07rem solid;
   border-bottom: 0.07rem solid;
   font-size: 2rem;
   margin-left: 5%;
   color: #fff;
 }
-body .fondo header ul {
+.cabecera-redes {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -47,7 +48,7 @@ body .fondo header ul {
   margin-right: 5%;
   width: 40%;
 }
-body .fondo header ul li img {
+.cabecera-redes li img {
   width: 30%;
 }
 .cuadros {
@@ -58,6 +59,7 @@ body .fondo header ul li img {
   margin-bottom: 2rem;
   text-align: center;
   width: 100%;
+  font-family: 'Crimson Text', serif;
 }
 .cuadros article {
   width: 20%;
@@ -68,6 +70,9 @@ body .fondo header ul li img {
 }
 .cuadros h1 {
   margin: 0;
+}
+.cuadros p {
+  font-size: 0.9em;
 }
 .proyectos {
   display: flex;
