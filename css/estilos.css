@@ -47,8 +47,9 @@ body {
   margin-right: 5%;
   width: 40%;
 }
-.cabecera-redes li img {
-  width: 30%;
+.cabecera-redes li i {
+  font-size: 3em;
+  color: white;
 }
 .cuadros {
   display: flex;
