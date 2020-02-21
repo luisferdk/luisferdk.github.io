@@ -1,56 +1,383 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE HTML>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,400italic,700italic">
 	<title>Luisferdk</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/ionicons.css" rel="stylesheet">
+	<link href="css/fluidbox.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
 </head>
+
 <body>
-	<section class="fondo">
-		<header class="cabecera">
-			<h1 class="cabecera-logo">LUISFERDK</h1>
-			<ul class="cabecera-redes">
-				<li class="fb"><a href="https://facebook.com/luisferdk"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-				<li class="tw"><a href="https://twitter.com/luisferdk"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li class="ins"><a href="https://instagram.com/luisferdk"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li class="gh"><a href="https://github.com/luisferdk"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-				<li class="in"><a href="https://github.com/luisferdk"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-			</ul>	
-		</header>
-		<div></div><!--div aux para que los cuadros se ajusten hacia abajo-->
-		<div class="cuadros">
-			<article>
-				<h1>CODE</h1>
-				<p>Página Web de La Coordinación de Desarrollo Educativo</p>
-				<p>HTML, CSS, Javascript</p>
-			</article>
-			<article>
-				<h1>Blackjack</h1>
-				<p>Juego de Cartas</p>
-				<p>API Electron, Nodejs	<br> HTML, CSS, Javascript</p>
-			</article>
-			<article>
-				<h1>COBRE</h1>
-				<p>Simulación de elaboración del COBRE</p>
-				<p>HTML, CSS, JQuery</p>
-			</article>
+	<header>
+		<div class="container">
+			<div class="heading-wrapper">
+				<div class="info-flex">
+					<div class="info">
+						<i class="icon ion-ios-location-outline"></i>
+						<div class="right-area">
+							<h5>Bogotá</h5>
+							<h5>Colombia</h5>
+						</div>
+					</div>
+					<div class="info">
+						<i class="icon ion-social-whatsapp-outline"></i>
+						<div class="right-area">
+							<h5>+58 (424) 7416312</h5>
+							<h6>LUN - VIE | 8AM - 6PM</h6>
+						</div>
+					</div>
+					<div class="info">
+						<i class="icon ion-ios-chatboxes-outline"></i>
+						<div class="right-area">
+							<h5>luisdk.03@gmail.com</h5>
+							<h6>Respuesta en 24 Horas</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="downlad-btn" target="_blank" href="images/luisferdk-cv.pdf" download>Descargar CV</a>
+		</div>
+	</header>
+
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="images/luisferdk-developer.jpg" alt=""></div>
+						<h3><b>Full Stack Javascript Developer</b></h3>
+						<h4 class="font-blue">Luis José Fernández Contreras</h4>
+						<p class="margin-tb-30">
+							Tengo 4 años de experiencia trabajando como Freelancer en varias empresas y startups en
+							República Dominicana, Colombia y México.
+							<br><br>
+							He desarrollado páginas web y sistemas administrativos en Wordpress, PHP con Laravel en el sector
+							turístico y tecnológico.
+							<br><br>
+							Busco colaborar como desarrollador de Javascript ya que recientemente me he certificado en esta
+							tecnología.
+							A nivel Frontend con <strong>Reactjs</strong> y/o a nivel Backend con <strong>Nodejs (Express)</strong>
+						</p>
+						<ul class="social-icons">
+							<li><a href="https://linkedin.com/in/luisferdk"><i class="ion-social-linkedin"></i></a></li>
+							<li><a href="https://instagram.com/luisferdk"><i class="ion-social-instagram"></i></a></li>
+							<li><a href="https://facebook.com/luisferdk"><i class="ion-social-facebook"></i></a></li>
+							<li><a href="https://twitter.com/luisferdk"><i class="ion-social-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
-	<!--
-	<h2>Proyectos</h2>
-	<section class="proyectos">
-		<article>
-			<h1>titulo 1</h1>
-		</article>
-		<article>
-			<h1>titulo 2</h1>
-		</article>
-		<article>
-			<h1>titulo 3</h1>
-		</article>
+
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Portafolio</b></h3>
+						<h6 class="font-lite-black"><b>MI TRABAJO</b></h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="portfolioFilter clearfix margin-b-80">
+						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
+						<a href="#" data-filter=".react"><b>Reactjs & Nodejs</b></a>
+						<a href="#" data-filter=".laravel"><b>Laravel</b></a>
+						<a href="#" data-filter=".wordpress"><b>Wordpress</b></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolioContainer">
+			<div class="p-item wordpress">
+				<a href="images/sites/fidag.png" data-fluidbox>
+					<img src="images/sites/fidag.png" alt=""></a>
+			</div>
+			<div class="p-item wordpress">
+				<a href="images/sites/hidora.png" data-fluidbox>
+					<img src="images/sites/hidora.png" alt=""></a>
+			</div>
+			<div class="p-item laravel">
+				<a href="images/sites/globextours.png" data-fluidbox>
+					<img src="images/sites/globextours.png" alt=""></a>
+			</div>
+			<div class="p-item laravel">
+				<a href="images/sites/dominicanairservices.jpg" data-fluidbox>
+					<img src="images/sites/dominicanairservices.jpg" alt=""></a>
+			</div>
+			<div class="p-item laravel">
+				<a href="images/sites/dominicantoursandtransfers.jpg" data-fluidbox>
+					<img src="images/sites/dominicantoursandtransfers.jpg" alt=""></a>
+			</div>
+			<div class="p-item laravel">
+				<a href="images/sites/oasisdmc.jpg" data-fluidbox>
+					<img src="images/sites/oasisdmc.jpg" alt=""></a>
+			</div>
+			<div class="p-item laravel">
+				<a href="images/sites/otiumtransfers.jpg" data-fluidbox>
+					<img src="images/sites/otiumtransfers.jpg" alt=""></a>
+			</div>
+			<div class="p-item laravel">
+				<a href="images/sites/puntacanaenjoyment.jpg" data-fluidbox>
+					<img src="images/sites/puntacanaenjoyment.jpg" alt=""></a>
+			</div>
+			<div class="p-item laravel">
+				<a href="images/sites/puntacanapics.jpg" data-fluidbox>
+					<img src="images/sites/puntacanapics.jpg" alt=""></a>
+			</div>
+			<div class="p-item react">
+				<a href="images/sites/platziVideo.png" data-fluidbox>
+					<img src="images/sites/platziVideo.png" alt=""></a>
+			</div>
+		</div>
 	</section>
-	-->
+
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Habilidades</b></h3>
+						<h6 class="font-lite-black"><b>PROFESIONALES</b></h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<p class="margin-b-50">
+						Entre las habilidades que he desarrollado están manejo de control de versiones con <strong>git</strong>
+						junto a <strong>github</strong>.
+						<br><br>
+						Maquetar sitios web desde cero con tecnologías como
+						<strong>HTML, CSS (SASS o Stylus) y Javascript</strong>
+						<br><br>
+						Además de maquetar los sitios web tengo la habilidad de transformar un diseño estático en dinámico, y
+						administrable con tecnologias como <strong>Wordpress.</strong>
+						<br><br>
+						Para un mejor desarrollo a nivel Frontend he manejado distinos Frameworks como Vuejs, Angular y
+						<strong>Reactjs</strong> siento este úlimo el más usado en mis desarrollos.
+						<br><br>
+						Manejo como idioma nativo el <strong>español</strong> y como segundo idioma el <strong>inglés
+							básico</strong>.
+						<br><br>
+						Por último a nivel de Backend manejo <strong>Nodejs
+							o PHP</strong> con los Frameworks <strong>Express y Laravel</strong> respectivamente.
+						<br><br>
+						En conclusión puedo desarrollar sitios web en los siguentes stack.
+						<br><br>
+						Full Stack Javascript MERN <br>
+						Full Stack Laravel y React <br>
+						Wordpress <br>
+					</p>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".97">
+									<div></div>
+									<h6 class="progress-title">HTML5 & CSS3 <br>Javascript</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".70">
+									<div></div>
+									<h6 class="progress-title">Reactjs</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".60">
+									<div></div>
+									<h6 class="progress-title">Express & Nodejs</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".8">
+									<div></div>
+									<h6 class="progress-title">Laravel & <br> Wordpress</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Experiencia</b></h3>
+						<h6 class="font-lite-black"><b>PREVIOS TRABAJOS</b></h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="experience margin-b-50">
+						<h4><b>Javascript Full Stack Developer</b></h4>
+						<h5 class="font-blue"><b>Estudios en Platzi</b></h5>
+						<h6 class="margin-t-10">Octubre 2019 - Presente</h6>
+						<p class="font-semi-white margin-tb-30">
+							- Desarrollo de sitio web PlatziVideo con Reactjs, Redux, React Router, Nodejs (Express).
+						</p>
+					</div>
+
+					<div class="experience margin-b-50">
+						<h4><b>Wordpress Developer</b></h4>
+						<h5 class="font-blue"><b>Heraclea</b></h5>
+						<h6 class="margin-t-10">Octubre 2019 - Enero 2020</h6>
+						<p class="font-semi-white margin-tb-30">
+							Desarrollo de 2 sitios web en Wordpress. <br><br>
+							- El primero enfocado al sector financiero con el objectivo de darle un status profesional a nivel web y
+							administrar eventos elaborados por la empresa.
+						</p>
+						<p class="font-semi-white margin-tb-30">
+							- El segundo enfocado al sector tecnológico con el objectivo de informar y vender a los clientes sobre el
+							producto de la empresa.
+						</p>
+						<ul class="list margin-b-30">
+							<li>Desarrollo de Plantilla en <strong>HTML,SCSS,Javascript, Webpack</strong> con un diseño previamente
+								dado por el cliente.</li>
+							<li>Desarrollo de Componentes con el plugin <strong>Elementor</strong></li>
+							<li>Instalación, configuración y modificación de plugins para administrar el sitio web de manera fácil.
+							</li>
+						</ul>
+					</div>
+
+					<div class="experience margin-b-50">
+						<h4><b>Full Stack Laravel Developer</b></h4>
+						<h5 class="font-blue"><b>Domtecno</b></h5>
+						<h6 class="margin-t-10">Junio 2016 - Septiembre 2019</h6>
+						<p class="font-semi-white margin-tb-30">Desarrollo de multiples sitios web y sistemas administrativos
+							enfocados al sector turístico.</p>
+						<ul class="list margin-b-30">
+							<li>Maquetación de Sitios Web en <strong>HTML, SCSS, Angularjs, Javascript, Jquery, Bootstrap,
+									Webpack.</strong></li>
+							<li>Desarrollo de <strong>Apis Rest Full</strong> con <strong>Laravel.</strong></li>
+							<li><strong>Modelado</strong> de Bases de Datos y posterior implementación en <strong>MYSQL</strong>
+								usando el <strong>ORM de Laravel.</strong></li>
+							<li>Implementación de Métodos de Pago como Paypal, 2checkout y Stripe.</li>
+							<li>Manejo y Deployment en Servidores.</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Educación</b></h3>
+						<h6 class="font-lite-black"><b>CARRERA ACADÉMICA</b></h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>Carrera de Full Stack Javascript</b></h4>
+							<h5 class="font-blue"><b>Platzi</b></h5>
+							<h6 class="font-lite-black margin-t-10">Enero 2020</h6>
+							<p class="margin-tb-30">Estudio de manera online en la plataforma de educación Platzi.</p>
+						</div>
+						<div class="education margin-b-50">
+							<h4><b>Carrera de Wordpress</b></h4>
+							<h5 class="font-blue"><b>Platzi</b></h5>
+							<h6 class="font-lite-black margin-t-10">Julio 2017</h6>
+							<p class="margin-tb-30">Estudio de manera online en la plataforma de educación Platzi.</p>
+						</div>
+						<div class="education margin-b-50">
+							<h4><b>Carrera de Laravel</b></h4>
+							<h5 class="font-blue"><b>Platzi</b></h5>
+							<h6 class="font-lite-black margin-t-10">Julio 2017</h6>
+							<p class="margin-tb-30">Estudio de manera online en la plataforma de educación Platzi.</p>
+						</div>
+						<div class="education margin-b-50">
+							<h4><b>Ingenería Informática</b></h4>
+							<h5 class="font-blue"><b>Universidad Nacional Experimental del Táchira (UNET)</b></h5>
+							<h6 class="font-lite-black margin-t-10">Octubre 2011 - Octubre 2016</h6>
+							<p class="margin-tb-30">Estudios hasta el 7mo semestre de Ingenería Informática en la UNET</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Acerca de Mi</b></h3>
+						<h6 class="font-lite-black"><b>Luis José</b></h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="experience margin-b-50">
+						<h4 class="mb-3"><b>Mis Datos</b></h4>
+						<ul class="list margin-b-50">
+							<li><strong>Fecha de Nacimiento:</strong> 03/06/1994</li>
+							<li><strong>Edad:</strong> 25 años</li>
+							<li><strong>Estado Civil:</strong> Comprometido</li>
+							<li><strong>Disponiblidad para Viajar:</strong> Si</li>
+							<li><strong>Cambio de Residencia:</strong> Si</li>
+						</ul>
+
+						<h4 class="mb-3"><b>Hobbies</b></h4>
+						<ul class="list margin-b-50">
+							<li>Estudiar y Aprender de manera online</li>
+							<li>Viajar por el Mundo</li>
+							<li>Hacer videos de viaje en Youtube</li>
+							<li>Escuchar Música</li>
+							<li>Hablar con Amigos y Familiares</li>
+							<li>Jugar Futbol</li>
+							<li>Cocinar</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p class="copyright">
+			Copyright &copy;<script>
+				document.write(new Date().getFullYear());
+			</script> Todos los Derechos Reservados
+		</p>
+
+
+	</footer>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/progressbar.min.js"></script>
+	<script src="js/jquery.fluidbox.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
+
 </html>
