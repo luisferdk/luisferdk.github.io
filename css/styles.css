@@ -234,6 +234,11 @@ b.max-bold {
 	color: #999;
 }
 
+.list{
+	display: flex;
+	flex-direction: column;
+}
+
 
 /* ---------------------------------
 3. HEADER
