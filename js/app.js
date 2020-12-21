@@ -1,7 +1,14 @@
-let $links = document.querySelectorAll('.menu-items a');
-for (let i = 0; i < $links.length; i++) {
-  $links[i].onclick = function (e) {
-    $links.forEach((item) => item.classList.remove('active'));
-    this.classList.add('active');
-  };
+const links = document.querySelectorAll('.menu-items a');
+const sections = document.querySelectorAll('.section-container');
+
+function activeScroll() {
+  let index = sections.length;
+
+  while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+
+  links.forEach((link) => link.classList.remove('active'));
+  links[index].classList.add('active');
 }
+
+activeScroll();
+window.addEventListener('scroll', activeScroll);
