@@ -182,10 +182,10 @@ textarea {
 .menu {
   position: fixed;
   right: 2%;
-  width: 6%;
+  width: 5%;
   height: 100vh;
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;
