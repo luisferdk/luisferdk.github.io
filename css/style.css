@@ -530,17 +530,16 @@ textarea {
   }
   .menu {
     width: 100%;
-    bottom: 20px;
-    left: 5px;
-    right: 5px;
-    /* right: 10%;
-    left:10%; */
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: auto;
   }
   .menu-items {
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
+    border-radius: 50px 50px 0 0;
   }
   .menu-items a {
     margin: 0 5px;
