@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Luis Fernández",
+    "label": "Full Stack Developer with over 8 years of experience in developing web and mobile applications.",
+    "image": "/me.webp",
+    "email": "luisdk.03@gmail.com",
+    "phone": "+57 (318) 4808095",
+    "url": "luisferdk.github.io",
+    "summary": "Full Stack Developer with over 8 years of experience in developing web and mobile applications. Specialized in ReactJS, NextJS, and React Native for the frontend, and in building REST APIs with FastAPI, Django, and ExpressJS for the backend. Strong expertise in designing and managing MySQL and PostgreSQL databases, as well as deploying applications on AWS.",
+    "location": {
+      "address": "",
+      "postalCode": "540001",
+      "city": "Cúcuta",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "luisferdk",
+        "url": "https://linkedin.com/in/luisferdk"
+      },
+      {
+        "network": "GitHub",
+        "username": "luisferdk",
+        "url": "https://github.com/luisferdk"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Rebus Technology",
+      "position": "Full Stack Developer",
+      "startDate": "2023-01-08",
+      "endDate": "2025-07-31",
+      "summary": "Development of websites and mobile applications using ReactJS and React Native for the frontend, and Python with FastAPI and Django for the backend, deploying solutions on AWS services to ensure scalability and performance.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Shokworks Inc.",
+      "position": "Frontend Wordpress Developer",
+      "startDate": "2021-08-01",
+      "endDate": "2023-01-01",
+      "summary": "Development of websites and plugins in WordPress, integrating modern functionalities with ReactJS to deliver dynamic and customized experiences.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Nelumbo Consultores",
+      "position": "Frontend React Developer",
+      "startDate": "2020-11-01",
+      "endDate": "2021-07-01",
+      "summary": "Developed websites and admin dashboards using ReactJS, focused on building fast, scalable, and user-friendly interfaces.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Platzi",
+      "area": "Frontend, Backend, and AI Development Courses",
+      "studyType": "Bachelor",
+      "startDate": "2021-08-01",
+      "endDate": null,
+      "courses": []
+    },
+    {
+      "institution": "Universidad Experimental del Táchira",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011-08-01",
+      "endDate": "2016-06-01",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "ReactJS"
+    },
+    {
+      "name": "React Native"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "FastAPI"
+    },
+    {
+      "name": "Django"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "PostgresSQL"
+    },
+    {
+      "name": "AWS"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Herbalife",
+      "isActive": false,
+      "description": "Development of an admin dashboard and an application for managing calls between advisors and clients, optimizing communication and tracking.",
+      "highlights": [
+        "ReactJS",
+        "React Native",
+        "FastAPI",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Renta Joven",
+      "isActive": false,
+      "description": "Developed a Single Page Application (SPA) for mental health to monitor patients’ emotional state.",
+      "highlights": [
+        "NextJS",
+        "FastAPI",
+        "Microservices"
+      ]
+    }
+  ]
+}
